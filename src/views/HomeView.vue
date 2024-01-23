@@ -50,13 +50,13 @@ nav {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-
-  img {
-    width: 20rem;
-    aspect-ratio: 3/2;
-    object-fit: contain;
-  }
 }
+
+nav img {
+   width: 20rem;
+   aspect-ratio: 3/2;
+   object-fit: contain;
+ }
 
 .container {
   margin-top: 3rem;
@@ -66,31 +66,32 @@ nav {
   align-items: center;
   flex-direction: column;
   gap: 4rem;
-
-  img {
-  width: 100%;
-  object-fit: contain;
-  }
-
-  .shop-container {
-    display: flex;
-    justify-content: center;
-
-    a {
-      transition: box-shadow, transform .3s;
-      width: 25rem;
-      background: black;
-      border-radius: 5px;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-      padding: 1rem;
-    }
-
-    a:hover, a:focus {
-      box-shadow: 0 0 18px rgba(0, 0, 0, .2);
-      transform: translateY(-0.20em);
-    }
-  }
 }
+
+.container .shop-container {
+   display: flex;
+   justify-content: center;
+ }
+
+.container .shop-container a {
+  transition: box-shadow, transform .3s;
+  width: 25rem;
+  background: black;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  padding: 1rem;
+}
+
+.container .shop-container a:hover, a:focus {
+  box-shadow: 0 0 18px rgba(0, 0, 0, .2);
+  transform: translateY(-0.20em);
+}
+
+.container img {
+   width: 100%;
+   object-fit: contain;
+ }
+
 .shops-title {
   text-align: center;
   font-size: 2rem;
@@ -98,22 +99,16 @@ nav {
 }
 
 @media screen and (max-width: 470px) {
-  .container {
-    .shop-container {
-      a {
-        width: 20rem;
-      }
-    }
+  .container .shop-container a {
+    width: 20rem;
   }
 }
 
+
+
 @media screen and (max-width: 380px) {
-  .container {
-    .shop-container {
-      a {
-        width: 15rem;
-      }
-    }
+  .container .shop-container a {
+    width: 15rem;
   }
 }
 </style>
