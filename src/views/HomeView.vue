@@ -78,7 +78,7 @@ nav img {
   height: 18rem;
   background: black;
   border-radius: 50%;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
   padding: 1rem;
   text-align: center;
   display: flex;
@@ -107,11 +107,16 @@ nav img {
   .container {
     flex-direction: column;
   }
+
+  nav img {
+    width: 20rem;
+  }
 }
 
 @media screen and (max-width: 470px) {
   .container .shop-container a {
-    width: 20rem;
+    width: 15rem;
+    height: 15rem;
   }
 }
 
@@ -119,7 +124,8 @@ nav img {
 
 @media screen and (max-width: 380px) {
   .container .shop-container a {
-    width: 15rem;
+    width: 10rem;
+    height: 10rem;
   }
 }
 </style>
