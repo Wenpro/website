@@ -70,7 +70,7 @@ export default {
 <style lang="css" scoped>
 nav {
   background-color: black;
-  height: 40dvh;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
