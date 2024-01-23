@@ -2,6 +2,31 @@
   <nav>
     <img src="/img/Logo-Wenpro.webp">
   </nav>
+
+  <div class="info">
+    <p>
+      Welkom bij Wenpro BV - Jouw Partner in Maatwerk Producten!
+    </p>
+    <br>
+    <p>
+      Bij Wenpro BV omarmen we innovatie, creativiteit en vakmanschap om unieke oplossingen te bieden die perfect aansluiten op de behoeften van onze klanten. Als jong en dynamisch productiebedrijf willen we ons specialiseren in de productie van maatwerk producten die niet alleen voldoen aan, maar vaak zelfs de verwachtingen overtreffen.
+      <br>
+      <br>
+
+      Onze toewijding aan excellentie in vakmanschap, gecombineerd met geavanceerde productietechnologieën, stelt ons in staat om op maat gemaakte oplossingen te leveren voor diverse sectoren. Of het nu gaat om screendoeken, deurmatten of akoestische vilt producten, wij streven ernaar om jouw vraag te realiseren.
+      <br>
+      <br>
+      Wat ons onderscheidt, is niet alleen de kwaliteit van onze producten, maar ook de nauwe samenwerking met onze klanten. Bij Wenpro BV geloven we in een transparante en open communicatie, zodat we samen kunnen werken aan het realiseren van jouw doelen.
+      <br>
+      <br>
+      Neem binnenkort eens een kijkje in ons webshops en ontdek de veelzijdigheid van onze maatwerkoplossingen. Of heb je misschien een specifiek idee wat nog in de ontwerpfase zit, wij denken graag mee en staan klaar om je te begeleiden door het proces en een product te leveren dat naadloos aansluit op jouw wensen.
+      <br>
+      <br>
+      Neem gerust contact op om de mogelijkheden tot samenwerking te onderzoeken.
+      <br><br>
+      <a style="color: #045788" href="mailto:klantenservice@wenpro.nl">klantenservice@wenpro.nl</a>
+    </p>
+  </div>
   <h1 class="shops-title">Onze webshop:</h1>
   <div class="container">
     <div class="shop-container">
@@ -21,8 +46,8 @@
     </div>
 
     <div class="shop-container">
-    <a target="_blank" href="https://viltopmaat.nl/">
-      <img style="width: 48%!important; margin: 0 auto" src="/img/Logo-Vilt.webp" alt="logo screendoek">
+    <a style="background: #2D572C" target="_blank" href="https://viltopmaat.nl/">
+      <img style="width: 48%!important; margin: 0 auto; " src="/img/Logo-Vilt.webp" alt="logo screendoek">
       <p style="margin-top: .5rem">Geopend vanaf 01-03-2024</p>
     </a>
   </div>
@@ -45,7 +70,7 @@ export default {
 <style lang="css" scoped>
 nav {
   background-color: black;
-  height: 50dvh;
+  height: 40dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,6 +128,14 @@ nav img {
   margin-top: 2rem;
 }
 
+.info {
+  padding: 3rem 10rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  background: black;
+  color: white;
+}
+
 @media screen and (max-width: 1435px) {
   .container {
     flex-direction: column;
@@ -111,12 +144,20 @@ nav img {
   nav img {
     width: 20rem;
   }
+
+  .info {
+    padding: 3rem 5rem;
+  }
 }
 
 @media screen and (max-width: 470px) {
   .container .shop-container a {
     width: 15rem;
     height: 15rem;
+  }
+
+  .info {
+    padding: 3rem 1.5rem;
   }
 }
 
