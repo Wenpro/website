@@ -24,7 +24,7 @@
       <br>
       Neem gerust contact op om de mogelijkheden tot samenwerking te onderzoeken.
       <br><br>
-      <a style="color: #045788" href="mailto:klantenservice@wenpro.nl">klantenservice@wenpro.nl</a>
+      <a style="color: cornflowerblue" href="mailto:klantenservice@wenpro.nl">klantenservice@wenpro.nl</a>
     </p>
   </div>
   <h1 class="shops-title">Onze webshop:</h1>
