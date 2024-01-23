@@ -4,30 +4,33 @@
   </nav>
 
   <div class="info">
-    <p>
+    <b>
       Welkom bij Wenpro BV - Jouw Partner in Maatwerk Producten!
-    </p>
+    </b>
+    <br>
     <br>
     <p>
-      Bij Wenpro BV omarmen we innovatie, creativiteit en vakmanschap om unieke oplossingen te bieden die perfect aansluiten op de behoeften van onze klanten. Als jong en dynamisch productiebedrijf willen we ons specialiseren in de productie van maatwerk producten die niet alleen voldoen aan, maar vaak zelfs de verwachtingen overtreffen.
-      <br>
-      <br>
-
       Onze toewijding aan excellentie in vakmanschap, gecombineerd met geavanceerde productietechnologieën, stelt ons in staat om op maat gemaakte oplossingen te leveren voor diverse sectoren. Of het nu gaat om screendoeken, deurmatten of akoestische vilt producten, wij streven ernaar om jouw vraag te realiseren.
       <br>
       <br>
-      Wat ons onderscheidt, is niet alleen de kwaliteit van onze producten, maar ook de nauwe samenwerking met onze klanten. Bij Wenpro BV geloven we in een transparante en open communicatie, zodat we samen kunnen werken aan het realiseren van jouw doelen.
+      Neem binnenkort eens een kijkje op de webshops en ontdek de veelzijdigheid van onze maatwerkoplossingen.
       <br>
       <br>
       Neem binnenkort eens een kijkje in ons webshops en ontdek de veelzijdigheid van onze maatwerkoplossingen. Of heb je misschien een specifiek idee wat nog in de ontwerpfase zit, wij denken graag mee en staan klaar om je te begeleiden door het proces en een product te leveren dat naadloos aansluit op jouw wensen.
       <br>
       <br>
-      Neem gerust contact op om de mogelijkheden tot samenwerking te onderzoeken.
-      <br><br>
+      Heeft u zakelijk interesse omtrent de mogelijkheden voor samenwerking, neem dan gerust contact met ons op voor de mogelijkheden.
+      <br>
+      <br>
       <a style="color: #045788" href="mailto:klantenservice@wenpro.nl">klantenservice@wenpro.nl</a>
+      <br>
+      <br>
+      Wenpro B.V. <br>
+      Buitenes 10 (zijkant pand, ingang Esakker) <br>
+      7951 SR Staphorst <br>
     </p>
   </div>
-  <h1 class="shops-title">Onze webshop:</h1>
+  <h1 class="shops-title">Onze webshops:</h1>
   <div class="container">
     <div class="shop-container">
       <a style="background: #045788" target="_blank" href="https://screendoekopmaat.nl/">
