@@ -23,7 +23,7 @@
     <div class="shop-container">
     <a target="_blank" href="https://viltopmaat.nl/">
       <img style="width: 48%!important; margin: 0 auto" src="/img/Logo-Vilt.webp" alt="logo screendoek">
-      <p style="margin-top: .5rem">Geopend vanaf 02-02-2024</p>
+      <p style="margin-top: .5rem">Geopend vanaf 01-03-2024</p>
     </a>
   </div>
 
