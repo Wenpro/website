@@ -16,9 +16,6 @@
       Neem binnenkort eens een kijkje op de webshops en ontdek de veelzijdigheid van onze maatwerkoplossingen.
       <br>
       <br>
-      Neem binnenkort eens een kijkje in ons webshops en ontdek de veelzijdigheid van onze maatwerkoplossingen. Of heb je misschien een specifiek idee wat nog in de ontwerpfase zit, wij denken graag mee en staan klaar om je te begeleiden door het proces en een product te leveren dat naadloos aansluit op jouw wensen.
-      <br>
-      <br>
       Heeft u zakelijk interesse omtrent de mogelijkheden voor samenwerking, neem dan gerust contact met ons op voor de mogelijkheden.
       <br>
       <br>
