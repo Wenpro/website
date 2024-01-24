@@ -126,17 +126,44 @@ nav img {
 .shops-title {
   text-align: center;
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 10rem;
 }
 
 .info {
-  padding: 0 9rem 3rem 9rem;
+  padding: 0 25rem 3rem 25rem;
   font-size: 1.2rem;
   line-height: 1.5;
   background: black;
   color: white;
   margin-top: -2.5rem;
 }
+
+@media screen and (max-width: 2000px){
+  .info {
+    padding: 0 20rem 3rem 20rem;
+  }
+
+  .shops-title {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 1800px){
+  .info {
+    padding: 0 15rem 3rem 15rem;
+  }
+}
+
+@media screen and (max-width: 1600px){
+  .info {
+    padding: 0 12rem 3rem 12rem;
+  }
+
+  .shops-title {
+    margin-top: 3rem;
+  }
+}
+
 
 @media screen and (max-width: 1435px) {
   .container {
@@ -148,7 +175,7 @@ nav img {
   }
 
   .info {
-    padding: 3rem 5rem;
+    padding: 0 10rem 3rem 10rem;
   }
 }
 
