@@ -105,6 +105,7 @@ nav img {
   border-radius: 50%;
   box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
   padding: 1rem;
+  margin-top: 2.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -129,7 +130,7 @@ nav img {
 }
 
 .info {
-  padding: 0 6rem 3rem 6rem;
+  padding: 0 9rem 3rem 9rem;
   font-size: 1.2rem;
   line-height: 1.5;
   background: black;
