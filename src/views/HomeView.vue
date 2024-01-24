@@ -74,11 +74,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: -3rem;
 }
 
 nav img {
-   width: 30rem;
+   width: 20rem;
    aspect-ratio: 3/2;
    object-fit: contain;
  }
@@ -125,15 +125,16 @@ nav img {
 .shops-title {
   text-align: center;
   font-size: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .info {
-  padding: 3rem 10rem;
+  padding: 0 6rem 3rem 6rem;
   font-size: 1.2rem;
   line-height: 1.5;
   background: black;
   color: white;
+  margin-top: -2.5rem;
 }
 
 @media screen and (max-width: 1435px) {
@@ -157,7 +158,7 @@ nav img {
   }
 
   .info {
-    padding: 3rem 1.5rem;
+    padding: .5rem 1.5rem 2rem 1.5rem;
   }
 }
 
