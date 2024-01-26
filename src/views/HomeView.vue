@@ -16,9 +16,6 @@
       Neem binnenkort eens een kijkje op de webshops en ontdek de veelzijdigheid van onze maatwerkoplossingen.
       <br>
       <br>
-      Neem binnenkort eens een kijkje in ons webshops en ontdek de veelzijdigheid van onze maatwerkoplossingen. Of heb je misschien een specifiek idee wat nog in de ontwerpfase zit, wij denken graag mee en staan klaar om je te begeleiden door het proces en een product te leveren dat naadloos aansluit op jouw wensen.
-      <br>
-      <br>
       Heeft u zakelijk interesse omtrent de mogelijkheden voor samenwerking, neem dan gerust contact met ons op voor de mogelijkheden.
       <br>
       <br>
@@ -77,11 +74,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: -3rem;
 }
 
 nav img {
-   width: 30rem;
+   width: 20rem;
    aspect-ratio: 3/2;
    object-fit: contain;
  }
@@ -108,6 +105,7 @@ nav img {
   border-radius: 50%;
   box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
   padding: 1rem;
+  margin-top: 2.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -128,16 +126,44 @@ nav img {
 .shops-title {
   text-align: center;
   font-size: 2rem;
-  margin-top: 2rem;
+  margin-top: 10rem;
 }
 
 .info {
-  padding: 3rem 10rem;
+  padding: 0 25rem 3rem 25rem;
   font-size: 1.2rem;
   line-height: 1.5;
   background: black;
   color: white;
+  margin-top: -2.5rem;
 }
+
+@media screen and (max-width: 2000px){
+  .info {
+    padding: 0 20rem 3rem 20rem;
+  }
+
+  .shops-title {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 1800px){
+  .info {
+    padding: 0 15rem 3rem 15rem;
+  }
+}
+
+@media screen and (max-width: 1600px){
+  .info {
+    padding: 0 12rem 3rem 12rem;
+  }
+
+  .shops-title {
+    margin-top: 3rem;
+  }
+}
+
 
 @media screen and (max-width: 1435px) {
   .container {
@@ -149,7 +175,7 @@ nav img {
   }
 
   .info {
-    padding: 3rem 5rem;
+    padding: 0 10rem 3rem 10rem;
   }
 }
 
@@ -160,7 +186,7 @@ nav img {
   }
 
   .info {
-    padding: 3rem 1.5rem;
+    padding: .5rem 1.5rem 2rem 1.5rem;
   }
 }
 
