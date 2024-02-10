@@ -32,7 +32,6 @@
     <div class="shop-container">
       <a style="background: #045788" target="_blank" href="https://screendoekopmaat.nl/">
         <img style="padding-bottom: 1rem" src="/img/Logo-Screendoek.webp" alt="logo screendoek">
-        <p>Geopend vanaf 01-03-2024</p>
       </a>
     </div>
 
