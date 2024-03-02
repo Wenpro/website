@@ -40,14 +40,13 @@
     <div class="shop-container">
       <a target="_blank" href="https://deurmatopmaat.com/">
         <img src="/img/Logo-Deurmat.webp" alt="logo screendoek">
-        <p>Geopend vanaf 01-03-2024</p>
       </a>
     </div>
 
     <div class="shop-container">
     <a style="background: #2D572C" target="_blank" href="https://viltopmaat.nl/">
       <img style="width: 48%!important; margin: 0 auto; " src="/img/Logo-Vilt.webp" alt="logo screendoek">
-      <p style="margin-top: .5rem">Geopend vanaf 01-03-2024</p>
+      <p style="margin-top: .5rem">Coming soon</p>
     </a>
   </div>
 
