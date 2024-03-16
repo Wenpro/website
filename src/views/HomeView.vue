@@ -5,15 +5,12 @@
 
   <div class="info">
     <b>
-      Welkom bij Wenpro BV - Jouw Partner in Maatwerk Producten!
+      Welkom bij Wenpro BV
     </b>
-    <br>
+    <p style="font-size: small; font-style: oblique;">Passie voor maatwerk productie</p>
     <br>
     <p>
-      Onze toewijding aan excellentie in vakmanschap, gecombineerd met geavanceerde productietechnologieën, stelt ons in staat om op maat gemaakte oplossingen te leveren voor diverse sectoren. Of het nu gaat om screendoeken, deurmatten of akoestische vilt producten, wij streven ernaar om jouw vraag te realiseren.
-      <br>
-      <br>
-      Neem binnenkort eens een kijkje op de webshops en ontdek de veelzijdigheid van onze maatwerkoplossingen.
+      Onze toewijding aan excellentie in vakmanschap, gecombineerd met geavanceerde productietechnologieën, stelt ons in staat om op maat gemaakte oplossingen te leveren voor diverse sectoren. Of het nu gaat om screendoeken, deurmatten of akoestische vilt producten, wij streven ernaar om jouw opdracht met de hoogste precisie en kwaliteit te realiseren.
       <br>
       <br>
       Heeft u zakelijk interesse omtrent de mogelijkheden voor samenwerking, neem dan gerust contact met ons op voor de mogelijkheden.
@@ -124,12 +121,12 @@ nav img {
 .shops-title {
   text-align: center;
   font-size: 2rem;
-  margin-top: 10rem;
+  margin-top: 6rem;
 }
 
 .info {
   padding: 0 25rem 3rem 25rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   background: black;
   color: white;
