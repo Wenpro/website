@@ -1,5 +1,10 @@
 <template>
-  <nav>
+  <div>
+    <img src="/img/Logo-Wenpro.webp">
+
+    <h1>Under construction</h1>
+  </div>
+  <!-- <nav>
     <img src="/img/Logo-Wenpro.webp">
   </nav>
 
@@ -47,7 +52,8 @@
     </a>
   </div>
 
-  </div>
+  </div> -->
+
 </template>
 
 <script>
@@ -63,7 +69,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-nav {
+/* nav {
   background-color: black;
   height: 40%;
   display: flex;
@@ -73,10 +79,10 @@ nav {
 }
 
 nav img {
-   width: 20rem;
-   aspect-ratio: 3/2;
-   object-fit: contain;
- }
+  width: 20rem;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
 
 .container {
   margin-top: 3rem;
@@ -88,9 +94,9 @@ nav img {
 }
 
 .container .shop-container {
-   display: flex;
-   justify-content: center;
- }
+  display: flex;
+  justify-content: center;
+}
 
 .container .shop-container a {
   transition: box-shadow, transform .3s;
@@ -98,7 +104,7 @@ nav img {
   height: 18rem;
   background: black;
   border-radius: 50%;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
   padding: 1rem;
   margin-top: 2.5rem;
   text-align: center;
@@ -107,16 +113,17 @@ nav img {
   justify-content: center;
 }
 
-.container .shop-container a:hover, a:focus {
+.container .shop-container a:hover,
+a:focus {
   box-shadow: 0 0 18px rgba(0, 0, 0, .2);
   transform: translateY(-0.20em);
 }
 
 .container img {
-   width: 100%;
+  width: 100%;
   padding-bottom: .5rem;
-   object-fit: contain;
- }
+  object-fit: contain;
+}
 
 .shops-title {
   text-align: center;
@@ -133,7 +140,7 @@ nav img {
   margin-top: -2.5rem;
 }
 
-@media screen and (max-width: 2000px){
+@media screen and (max-width: 2000px) {
   .info {
     padding: 0 20rem 3rem 20rem;
   }
@@ -143,13 +150,13 @@ nav img {
   }
 }
 
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1800px) {
   .info {
     padding: 0 15rem 3rem 15rem;
   }
 }
 
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1600px) {
   .info {
     padding: 0 12rem 3rem 12rem;
   }
@@ -192,5 +199,29 @@ nav img {
     width: 10rem;
     height: 10rem;
   }
+} */
+body {
+  background: black !;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 30%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+div {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  gap: 1rem;
 }
 </style>
